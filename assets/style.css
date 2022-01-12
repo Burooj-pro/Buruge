@@ -1,0 +1,112 @@
+:root {
+  --main-color: #64a891;
+  --second-color: #cd836d;
+  --font-color: #f3e8d5;
+  --font-color2: #5a5a63;
+  --font-color3: #21130d;
+  --background-color: #ededed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: BurgerFi !important; */
+  background: var(--background-color) !important;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+/* .fw-bold {
+    font-family: BurgerFi-Bold !important;
+} */
+
+/* --------------------------Header------------------------- */
+
+.nav-link {
+  color: var(--font-color) !important;
+}
+
+/* --------------------------Hero------------------------- */
+
+#big-hero {
+  background-image: url(/assets/imgs/hero-bc.jpg);
+  background-size: cover;
+}
+
+.hero .hero-text h1 {
+  color: var(--font-color2);
+}
+
+.hero .hero-text p {
+  color: #5a5a63;
+}
+
+.them-btc {
+  color: var(--font-color);
+  background-color: var(--second-color);
+}
+
+/* --------------------------services------------------------- */
+
+.card .card-body {
+  background-color: var(--background-color);
+}
+
+.them-service {
+  color: var(--font-color);
+  background-color: var(--main-color);
+}
+
+/* --------------------------Footer------------------------- */
+
+footer {
+  background-color: var(--main-color);
+}
+
+footer .contact-form {
+  background-color: white;
+}
+
+footer .contact-img {
+  z-index: 10;
+}
+
+footer .contact-img img {
+  width: 600px;
+  margin-right: -32px;
+}
+
+/* --------------------------end------------------------- */
+
+.endlist ul {
+  display: flex;
+}
+
+.endlistitems {
+  padding: 0px 15px;
+  color: var(--font-color);
+}
+
+.ending {
+  background-color: var(--font-color2) !important;
+  height: 50px;
+}
