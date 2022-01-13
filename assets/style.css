@@ -51,7 +51,7 @@ li {
 /* --------------------------Hero------------------------- */
 
 #big-hero {
-    background-image: url(/assets/imgs/hero-bc.jpg);
+    background-image: url(../assets/imgs/hero-bc.jpg);
     background-size: cover;
 }
 
