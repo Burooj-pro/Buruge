@@ -1,109 +1,117 @@
 :root {
-    --main-color: #64a891;
-    --second-color: #cd836d;
-    --font-color: #f3e8d5;
-    --font-color2: #5a5a63;
-    --font-color3: #21130d;
-    --background-color: #ededed;
+  --main-color: #64a891;
+  --second-color: #cd836d;
+  --font-color: #f3e8d5;
+  --font-color2: #5a5a63;
+  --font-color3: #21130d;
+  --background-color: #ededed;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    /* font-family: BurgerFi !important; */
-    background: var(--background-color) !important;
+  /* font-family: BurgerFi !important; */
+  background: var(--background-color) !important;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 ul {
-    padding: 0 !important;
-    margin: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
-
 
 /* .fw-bold {
     font-family: BurgerFi-Bold !important;
 } */
 
-
 /* --------------------------Header------------------------- */
 
 .nav-link {
-    color: var(--font-color) !important;
+  color: var(--font-color) !important;
 }
-
+.logo {
+  padding-top: 20px;
+}
 
 /* --------------------------Hero------------------------- */
 
 #big-hero {
-    background-image: url(../assets/imgs/hero-bc.jpg);
-    background-size: cover;
+  background-image: url(../assets/imgs/hero-bc.jpg);
+  background-size: cover;
 }
 
 .hero .hero-text h1 {
-    color: var(--font-color2);
+  color: var(--font-color2);
 }
 
 .hero .hero-text p {
-    color: #5a5a63;
+  color: #5a5a63;
 }
 
 .them-btc {
-    color: var(--font-color);
-    background-color: var(--second-color);
+  color: var(--font-color);
+  background-color: var(--second-color);
 }
 
+.hero-img {
+  background-color: silver;
+  border-radius: 6px;
+  width: 650px;
+  height: 450px;
+  padding-top: 80px;
+}
+
+/* --------------------------about us------------------------- */
 
 /* --------------------------services------------------------- */
 
 img#pattern {
-    width: 600px;
-    margin-bottom: -60px;
+  width: 600px;
+  margin-bottom: -60px;
 }
 
 .card .card-body {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 .them-service {
-    color: var(--font-color);
-    background-color: var(--main-color);
+  color: var(--font-color);
+  background-color: var(--main-color);
 }
 
 .box.card.flex-column {
-    width: 300px;
+  width: 300px;
 }
 
 .projects-txt,
 .services-text {
-    width: 25%;
+  width: 25%;
 }
 
 @media only screen and (max-width: 600px) {
-    .projects-txt,
-    .services-text {
-        width: 80% !important;
-    }
-    .box.card.flex-column {
-        width: 100%;
-    }
+  .projects-txt,
+  .services-text {
+    width: 80% !important;
+  }
+  .box.card.flex-column {
+    width: 100%;
+  }
 }
-
 
 /* 
 .card.flex-column {
@@ -111,39 +119,56 @@ img#pattern {
     width: 270px;
 } */
 
-
 /* --------------------------Footer------------------------- */
 
 footer {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 footer .contact-form {
-    background-color: white;
+  background-color: white;
 }
 
 footer .contact-img {
-    z-index: 10;
+  z-index: 10;
 }
 
 footer .contact-img img {
-    width: 600px;
-    margin-right: -32px;
+  width: 600px;
+  margin-right: -32px;
+}
+.btn {
+  color: var(--second-color);
 }
 
+.form1 {
+  width: 100%;
+
+  padding-left: 1px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0%;
+  border-bottom: 2px solid #bbbb;
+  outline: none;
+}
+.formmsg {
+  margin-top: 1px;
+  padding: auto;
+}
 
 /* --------------------------end------------------------- */
 
 .endlist ul {
-    display: flex;
+  display: flex;
 }
 
 .endlistitems {
-    padding: 0px 15px;
-    color: var(--font-color);
+  padding: 0px 15px;
+  color: var(--font-color);
 }
 
 .ending {
-    background-color: var(--font-color2) !important;
-    height: 50px;
+  background-color: var(--font-color2) !important;
+  height: 50px;
 }
