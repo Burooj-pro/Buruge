@@ -77,7 +77,13 @@ li {
 }
 
 /* --------------------------about us------------------------- */
-
+.aboutus .aboutus-text h2 {
+  color: #5a5a63;
+}
+.aboutus .aboutus-text p {
+  color: #5a5a63;
+  font-size: large;
+}
 /* --------------------------services------------------------- */
 
 img#pattern {
