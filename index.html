@@ -26,13 +26,13 @@
                     <div class="collapse pe-0 navbar-collapse container-fluid order-1 order-md-2 py-3 py-md-0" id="navbarTogglerDemo03">
                         <ul class="navbar-nav flex-grow-1 justify-content-end text-center menu">
                             <li class="nav-item">
-                                <a class="nav-link text-md-black fw-bold" href="#contact" tabindex="-1">Home</a>
+                                <a class="nav-link text-md-black fw-bold" aria-current="page" href="/" tabindex="-1">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-md-black fw-bold px-md-4" href="pages/about-us.html">About Us</a>
+                                <a class="nav-link text-md-black fw-bold px-md-4" href="#aboutus">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-md-black fw-bold" aria-current="page" href="pages/contact.html">Contact Us</a>
+                                <a class="nav-link text-md-black fw-bold" aria-current="page" href="#contactus">Contact Us</a>
                             </li>
 
                         </ul>
@@ -58,7 +58,7 @@
                     <div class="w-75">
                         <h1 class="fw-bold display-3">The <br>latest drone<br> technology</h1>
                         <p class="py-3 fs-5">Custom-designed, state-of-the-art drone technology to clean building exteriors</p>
-                        <a class="text-uppercase py-2 px-4 them-btc fw-bold" href="">About Us</a>
+                        <button type="button" class="btn btn-primary btn-lg fw-bold text-uppercase them-btc">about us</button>
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@
 
 
 <!-- -----------------------------------------------------About Us--------------------------------- -->
-     <section class="aboutus container mb-5 py-5" >
+     <section id="aboutus" class="aboutus container mb-5 py-5" >
            <div class="container align-items-start ">
             <div class="aboutus-text mb-5 mb-md-0">
                 <div class="w-75">
@@ -91,7 +91,7 @@
 
     <!-- -----------------------------------------------------services--------------------------------- -->
 
-    <section class="services py-md-5 py-4 mb-5 ">
+    <section id="services" class="services py-md-5 py-4 mb-5 ">
         <img src="assets/imgs/pattern.png" class="d-none d-md-block" id="pattern" alt="" srcset="">
 
         <div class="container d-flex flex-column flex-md-row justify-content-between ">
@@ -126,7 +126,7 @@
 
                 <h1 class="fw-bold">Our<br> Services</h1>
                 <p class="fs-6 lh-lg mb-5">It is a long established fact that a reader will be distracted by the readable conten</p>
-                <a class="text-uppercase py-2  px-4 them-btc fw-bold" href="">About Us</a>
+                <a class="text-uppercase py-2  px-4 them-btc fw-bold" href="#aboutus">About Us</a>
             </div>
         </div>
         </div>
@@ -135,10 +135,10 @@
 
 
     <!-- -----------------------------------------------------Projects--------------------------------- -->
-    <section class="project py-5 container my-5 d-flex flex-column flex-md-row justify-content-between">
+    <section id="projects" class="project py-5 container my-5 d-flex flex-column flex-md-row justify-content-between">
 
 
-        <div class="projects-txt mb-5 mb-md-0  align-items-center justify-content-between">
+        <div class="projects-txt mb-5 mb-md-0  ">
 
             <h1 class="fw-bold">Our<br> Projects</h1>
             <p class="fs-6 lh-lg mb-5">It is a long established fact that a reader will be distracted by the readable conten</p>
@@ -172,10 +172,13 @@
                 <img src="assets/imgs/9.jpg" class="rounded" alt="">
             </div>
 
-
-            <div class="contact-form p-5 flex-grow-1 rounded">
-                <form>
+            
+            <div id="contactus"class="contact-form p-5 flex-grow-1 rounded">
+              
                     <h1>Contact Us</h1>
+
+                <form action="https://formsubmit.co/" method="POST" class="text-center pt-4">
+
                     <div class="mb-3 pt-4">
                         <input type="text" class=" form1" placeholder="Full Name" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
@@ -194,8 +197,8 @@
                     <div class="mb-3">
                         <input type="text" placeholder="Message" class="form1 formmsg" id="exampleInputPassword1">
                     </div>
-                    <button type="submit" class="btn btn-primary text-uppercase py-1 px-3 them-btc fw-bold btn-secondary btn-sm">Submit</button>
-                    
+                    <button type="submit" class=" btn btn-primary text-uppercase py-1 px-3 them-btc fw-bold btn-secondary btn-sm">Submit</button>
+                </form>
                     
             </div>
 
@@ -212,7 +215,7 @@
                     <a href="#">
                         <li class="endlistitems text-uppercase">home</li>
                     </a>
-                    <a href="#">
+                    <a href="#services">
                         <li class="endlistitems text-uppercase">Our Services</li>
                     </a>
                 </ul>
@@ -221,10 +224,10 @@
                 <a href="index.html"><img src="assets/imgs/white.png" height="100" id="logo " class="center" alt="Buruge"></a>
 
                 <ul>
-                    <a href="#">
+                    <a href="#aboutus">
                         <li class="endlistitems text-uppercase">About Us</li>
                     </a>
-                    <a href="#">
+                    <a href="#contactus">
                         <li class="endlistitems text-uppercase">Contact Us</li>
                     </a>
                 </ul>

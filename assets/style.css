@@ -35,6 +35,16 @@ li {
   list-style: none;
 }
 
+.btn.btn-primary::hover {
+  color: white;
+  background-color: #cd836d;
+}
+
+.btn.btn-primary {
+  background-color: var(--second-color);
+  border: none;
+}
+
 /* .fw-bold {
     font-family: BurgerFi-Bold !important;
 } */
@@ -161,6 +171,10 @@ footer .contact-img img {
 .formmsg {
   margin-top: 1px;
   padding: auto;
+}
+
+.d-flex {
+  align-items: center;
 }
 
 /* --------------------------end------------------------- */
